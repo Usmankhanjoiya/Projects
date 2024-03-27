@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auctionx</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+  <div class="main">
+    <button class="hamberger">
+      <span onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
+    </button>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="login.html">Login</a>
+      <a href="./create.html">Create account</a>
+    </div>
+    <nav class="navbar" id="main-nav">
+      <div class="container">
+        <div class="nav-left-1">
+          <h1>Auctionx</h1>
+        </div>
+        <div class="nav-left-2">
+          <input
+            type="search"
+            name="search"
+            class="search"
+            placeholder="Search"
+          />
+        </div>
+
+        <div class="nav-right">
+          <a href="./index.html">Home</a>
+          <a href="./login.html">Login</a>
+          <a href="./create.html"><button class="account">Create account</button></a>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <!-- main card -->
+      <div class="container">
+        <div class="h-left">
+          <img src="./pic/volvo.webp" />
+        </div>
+        <div class="h-right">
+          <h1>Volvo EX30</h1>
+          <span>plus</span>
+          <p>Current bid <span>Rp 432,000,000,00</span></p>
+          <button>PLACE A BID</button>
+        </div>
+      </div>
+      <div class="h-main">
+        <h1>Latest Auction</h1>
+      </div>
+      <!-- cards -->
+      <div class="cards">
+        <div class="card-1">
+          <img src="./pic/kia ev9.webp" />
+          <div class="c1">
+            <span>Kia EV9</span>
+            <p>Rp 768.000.000,00</p>
+            <button>PLACE A BID</button>
+          </div>
+        </div>
+
+        <div class="card-1">
+          <img src="./pic/mazda.webp" />
+          <div class="c1">
+            <span>Mazda CX-30</span>
+            <p>Rp 251.000.000,00</p>
+            <button>PLACE A BID</button>
+          </div>
+        </div>
+
+        <div class="card-1">
+          <img src="./pic/nissan q.webp" />
+          <div class="c1">
+            <span>Nissan Qashqai e-POWER</span>
+            <p>Rp 297.000.000,00</p>
+            <button>PLACE A BID</button>
+          </div>
+        </div>
+        <div class="card-1">
+          <img src="./pic/tesla mo.webp" />
+          <div class="c1">
+            <span>Tasla Model 3</span>
+            <p>Rp 480.000.000,00</p>
+            <button>PLACE A BID</button>
+          </div>
+        </div>
+
+        <div class="card-1">
+          <img src="./pic/2.webp" />
+          <div class="c1">
+            <span>Honda Civic Type-R</span>
+            <p>Rp 650.000.000,00</p>
+            <button>PLACE A BID</button>
+          </div>
+        </div>
+
+        <div class="card-1">
+          <img src="./pic/4.webp" />
+          <div class="c1">
+            <span>Ford Ka</span>
+            <p>Rp 400.000.000,00</p>
+            <button>PLACE A BID</button>
+          </div>
+        </div>
+        <div class="card-1">
+          <img src="./pic/getImage (8).webp" />
+          <div class="c1">
+            <span>BMW 1 Series (2015-2019)</span>
+            <p>Rp 800.000.000,00</p>
+            <button>PLACE A BID</button>
+          </div>
+        </div>
+
+        <div class="card-1">
+          <img src="./pic/getImage (4).webp" />
+          <div class="c1">
+            <span>Alpine A110</span>
+            <p>Rp 540.000.000,00</p>
+            <button>PLACE A BID</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <h1>Auctionx</h1>
+        <div>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">News</a>
+          <a href="#">Contact</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-square-facebook fa-2x"></i>
+          <i class="fa-brands fa-instagram fa-2x"></i>
+          <i class="fa-brands fa-twitter fa-2x"></i>
+        </div>
+        <div>
+          <p>Copyright 2024 All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script>
+  function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+  </script>
+  </body>
+
+</html>
